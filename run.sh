@@ -14,8 +14,7 @@ SERVER_PID=$!
 echo "Server started with PID: $SERVER_PID"
 
 # 等待服务端启动
-sleep 5  # 等待 5 秒，可根据实际情况调整时间
-
+sleep 5  # 等待 5 秒
 # 循环启动 4 个客户端，分别使用不同的 GPU
 for ((i = 0; i < 4; i++)); do
     CUDA_VISIBLE_DEVICES=$i python client.py &
