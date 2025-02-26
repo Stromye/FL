@@ -1,0 +1,262 @@
+Server started with PID: 23310
+Client 0 started with PID: 23340
+Client 1 started with PID: 23341
+Client 2 started with PID: 23342
+Client 3 started with PID: 23343
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[92mINFO [0m:      Starting Flower server, config: num_rounds=3, no round_timeout
+[92mINFO [0m:      Flower ECE: gRPC server running (3 rounds), SSL is disabled
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Requesting initial parameters from one random client
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[92mINFO [0m:      
+[92mINFO [0m:      Received: get_parameters message 3031caa5-1793-4f50-9b71-9ef475c938ed
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Received initial parameters from one random client
+[92mINFO [0m:      Starting evaluation of initial global parameters
+[92mINFO [0m:      Evaluation returned no results (`None`)
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message c1bd0656-a358-4cfe-b354-2a4c26784530
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message fbabab69-305a-4d8c-89ec-1850e1180990
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message fb9f53ce-2577-4125-9935-50c6dce42b2a
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 683df79b-aec8-41dc-81bf-8c0b459c3e3a
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_fit: received 4 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message c31c0d82-6234-482d-ba41-af33cae3b281
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 428047c5-55a1-4a4b-98d3-1ca1d22a0635
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 77c98134-585c-4a60-8e8c-d4759ebc9e3b
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message d6b72300-3ede-456a-a63c-0d47eac64bb6
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_evaluate: received 4 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message ff9f7d12-c9f0-4f19-96ab-71d536b5a43d
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 9aa0118d-6bb3-49d5-befd-9977bb553ca7
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message c4514924-df4f-4f39-ba1b-9b789898edfd
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message e49b9ada-97ce-438a-8d8a-9a6bbfcae749
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_fit: received 4 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 61cef1a6-658f-4ab1-8009-8b83c5bd844b
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 9673b765-e348-460d-b6fb-82a552ef336b
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 85e2a502-2ec4-4863-85db-f5d9372975fe
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Received: evaluate message 37686283-5972-45c8-beac-8a6213eaa5d2
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_evaluate: received 4 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 2dea0034-259f-4eaa-9b93-f5f3374ef53f
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 5b9ebcbd-a6da-440c-8f8d-485ccc756254
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 0476f281-99fa-418e-b01c-ae4369f0a275
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message b7f5aecd-2daf-4855-95af-a8e860004080
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_fit: received 4 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 9ffe6c2a-e80a-4fde-8805-78b6dd1cbb03
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 96eeb886-6738-4eab-8928-3e8d18b1fbe7
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 73838e06-a1a5-44de-b8d4-8b36c8518e59
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message bfa92491-799e-47b8-becc-10ff129c79fc
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[93mWARNING [0m:   Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      aggregate_evaluate: received 4 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [SUMMARY]
+[92mINFO [0m:      Run finished 3 round(s) in 47.23s
+[92mINFO [0m:      	History (loss, distributed):
+[92mINFO [0m:      		round 1: 0.37652578949928284
+[92mINFO [0m:      		round 2: 0.3110274076461792
+[92mINFO [0m:      		round 3: 0.2858368754386902
+[92mINFO [0m:      	History (metrics, distributed, fit):
+[92mINFO [0m:      	{'accuracy': [(1, 0.8092291666666667), (2, 0.8985375), (3, 0.9097375)]}
+[92mINFO [0m:      	History (metrics, distributed, evaluate):
+[92mINFO [0m:      	{'accuracy': [(1, 0.8963), (2, 0.9099), (3, 0.9177)]}
+[92mINFO [0m:      
+[92mINFO [0m:      
+[92mINFO [0m:      Received: reconnect message 50978d64-60a6-4fda-a361-311e3b45a63d
+[92mINFO [0m:      
+[92mINFO [0m:      
+[92mINFO [0m:      Received: reconnect message edb7a754-cf19-43a1-94a7-0d46303ad810
+[92mINFO [0m:      Received: reconnect message 788daf2b-25cb-403f-b436-9a5718a01502
+[92mINFO [0m:      
+[92mINFO [0m:      Received: reconnect message eca47bdf-72c5-4d21-b216-473775e0d087
+检查是否请求评估
+Evaluation results from clients: [(<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419460>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.37652578949928284, num_examples=10000, metrics={'accuracy': 0.8963})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b941a810>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.37652578949928284, num_examples=10000, metrics={'accuracy': 0.8963})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419e80>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.37652578949928284, num_examples=10000, metrics={'accuracy': 0.8963})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9418920>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.37652578949928284, num_examples=10000, metrics={'accuracy': 0.8963}))]
+检查是否请求评估
+Evaluation results from clients: [(<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9418920>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.3110274076461792, num_examples=10000, metrics={'accuracy': 0.9099})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419460>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.3110274076461792, num_examples=10000, metrics={'accuracy': 0.9099})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419e80>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.3110274076461792, num_examples=10000, metrics={'accuracy': 0.9099})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b941a810>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.3110274076461792, num_examples=10000, metrics={'accuracy': 0.9099}))]
+检查是否请求评估
+Evaluation results from clients: [(<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419e80>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.2858368754386902, num_examples=10000, metrics={'accuracy': 0.9177})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b941a810>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.2858368754386902, num_examples=10000, metrics={'accuracy': 0.9177})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9418920>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.2858368754386902, num_examples=10000, metrics={'accuracy': 0.9177})), (<flwr.server.superlink.fleet.grpc_bidi.grpc_client_proxy.GrpcClientProxy object at 0x2b06b9419460>, EvaluateRes(status=Status(code=<Code.OK: 0>, message='Success'), loss=0.2858368754386902, num_examples=10000, metrics={'accuracy': 0.9177}))]
+[92mINFO [0m:      Disconnect and shut down
+[92mINFO [0m:      Disconnect and shut down
+[92mINFO [0m:      Disconnect and shut down
+[92mINFO [0m:      Disconnect and shut down
+Using GPU ID: 3
+evaluate执行中
+Client accuracy: 0.8963, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9099, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9177, num_examples: 10000
+启动客户端
+Using GPU ID: 0
+evaluate执行中
+Client accuracy: 0.8963, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9099, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9177, num_examples: 10000
+启动客户端
+Using GPU ID: 2
+evaluate执行中
+Client accuracy: 0.8963, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9099, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9177, num_examples: 10000
+启动客户端
+Using GPU ID: 1
+evaluate执行中
+Client accuracy: 0.8963, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9099, num_examples: 10000
+evaluate执行中
+Client accuracy: 0.9177, num_examples: 10000
+启动客户端
